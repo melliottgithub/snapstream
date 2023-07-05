@@ -1,64 +1,30 @@
-# Nuxt 3 Minimal Starter
+# SnapStream Dev - Michael Elliott
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project is a small UI project using Nuxt3 (Vue3 application framework). It implements a few pages, components, and service calls. The following sections provide instructions and requirements for the project.
 
 ## Setup
 
-Make sure to install the dependencies:
+1. Clone this repository:
 
-```bash
-# npm
-npm install
+   git clone https://github.com/your-username/snapstream-dev-yourname.git
 
-# pnpm
-pnpm install
+2. Install dependencies:
 
-# yarn
-yarn install
-```
+    yarn install
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
+3. Run the project:
+    
+   yarn dev
 
-```bash
-# npm
-npm run dev
 
-# pnpm
-pnpm run dev
+The project will be running at `http://localhost:3000`.
 
-# yarn
-yarn dev
-```
+## CI/CD with GitHub Actions
 
-## Production
+This project includes a CI/CD pipeline using GitHub Actions. The pipeline is triggered on each push to the `main` branch. Here's how it works:
 
-Build the application for production:
+## Deployment with AWS CDK
 
-```bash
-# npm
-npm run build
+The project is deployed using AWS CDK (Cloud Development Kit). The CDK code defines the infrastructure resources needed for the project.
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# snapstream
