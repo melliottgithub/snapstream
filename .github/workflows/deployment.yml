@@ -30,7 +30,7 @@ jobs:
 
       - name: Login to ECR
         run: |
-          echo ${{ secrets.AWS_ACCESS_KEY_ID }} | docker login --username AWS --password-stdin ${{ env.ECR_REGISTRY }}
+          echo ${{ env.AWS_ACCESS_KEY_ID }} | docker login --username AWS --password-stdin ${{ env.ECR_REGISTRY }}
 
       - name: Build and push Docker image
         run: |
