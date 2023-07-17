@@ -6,7 +6,7 @@ This project is a small UI project using Nuxt3 (Vue3 application framework). It 
 
 1. Clone this repository:
 
-   git clone https://github.com/your-username/snapstream-dev-yourname.git
+   git clone https://github.com/melliottgithub/snapstream.git
 
 2. Install dependencies:
 
